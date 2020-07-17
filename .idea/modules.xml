@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lesson_3_hwsel.iml" filepath="$PROJECT_DIR$/lesson_3_hwsel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvn_sel/mvn_sel.iml" filepath="$PROJECT_DIR$/mvn_sel/mvn_sel.iml" />
+    </modules>
+  </component>
+</project>
