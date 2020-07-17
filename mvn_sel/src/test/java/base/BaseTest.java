@@ -31,7 +31,6 @@ public abstract class BaseTest {
         wait15second = new WebDriverWait(chromeDriver, 15);
     }
 
-
     @AfterEach
     public void afterAll() {
         chromeDriver.quit();
