@@ -30,34 +30,34 @@ public class HomeWorkPage extends BaseWebTest {
 			.until(ExpectedConditions.visibilityOf(contentPage.getFooter()));
 	}
 
-	@DisplayName("Вход")
-	@Test
-	public void posts() {
-		String namePage = "Вход";
-		ContentPage contentPage = new ContentPage(driver);
+//	@DisplayName("Вход")
+//	@Test
+//	public void posts() {
+//		String namePage = "Вход";
+//		ContentPage contentPage = new ContentPage(driver);
+//
+//		contentPage.getNavigation().getButton(namePage).click();
+//		//contentPage.getButtonClosePopUp1().click();
+//		//contentPage.getButtonClosePopUp2().click();
+//
+//		contentPage.checkNamePage(namePage);
+//	}
 
-		contentPage.getNavigation().getButton(namePage).click();
-		//contentPage.getButtonClosePopUp1().click();
-		//contentPage.getButtonClosePopUp2().click();
-
-		contentPage.checkNamePage(namePage);
-	}
-
-	@DisplayName("Нажатие на элемент навигации")
-	@ParameterizedTest
-	@MethodSource("dataProvider")
-	public void courses(String namePage) {
-		ContentPage contentPage = new ContentPage(driver);
-		contentPage.getNavigation().getButton(namePage).click();
-		contentPage.checkNamePage(namePage);
-	}
-
-	public static Stream<Arguments> dataProvider() {
-		return Stream.of(Arguments.of("Вход"), Arguments.of()
-//			, Arguments.of("Главная")
-//			Arguments.of("Лицензия"), Arguments.of("Карьера")
-//                Arguments.of("Курсы", "courses")
-		);
-	}
+//	@DisplayName("Нажатие на элемент навигации")
+//	@ParameterizedTest
+//	@MethodSource("dataProvider")
+//	public void courses(String namePage) {
+//		ContentPage contentPage = new ContentPage(driver);
+//		contentPage.getNavigation().getButton(namePage).click();
+//		contentPage.checkNamePage(namePage);
+//	}
+//
+//	public static Stream<Arguments> dataProvider() {
+//		return Stream.of(Arguments.of("Вход"), Arguments.of()
+//			, Arguments.of("Главная"),
+//			Arguments.of("Лицензия"), Arguments.of("Карьера"),
+//             Arguments.of("Курсы", "courses")
+//		);
+//	}
 
 }
