@@ -1,0 +1,11 @@
+# Project exclude paths
+/driver/
+/target/
+.idea
+*.iml
+logs
+.allure
+*.eml
+.classpath
+.project
+.gradle
